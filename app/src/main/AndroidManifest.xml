@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saurabhdev.tmhelpinghands">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".PrevDonation"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".DonationTestPaytm"/>
+        <activity android:name=".DonationTestPaytm" android:screenOrientation="portrait"/>
+        <activity android:name=".SettingsPage" android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MyTransactions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JoinHandsWithUs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EshopPayment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IjarahServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Jameat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RamdhaanMuharramMuballigFund"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TameeraatFund"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IsaleSawab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NadarFund"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sponsorships"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MagazineSubsciption"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Membership"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RukumESharaee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImamZamin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Fitrah"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sadqah"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Khums"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DonationsGeneral"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupportTanzeemNative"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MadarsaForYouth"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IslamicEshop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DaughterMarriage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LifeNeccessities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MedicalHelp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoanNdHelp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FamilyCounselling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CareerCounselling"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scholarships"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ZakirShairMehfil"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ZakirShairMajlis"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".QuestionAnswerSec"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocialMediaServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TableegiDaura"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ConferenceSeminars"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BooksndBooklets"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IslamicDecoration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IslamicGifts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DiariesandCalender"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IslamicLibas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TrainingCamps"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Workshop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MuballigZakirForRamzaan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tabrrukat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MagazineSubs"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Engt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookReading"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SyllabusForEdu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JameatuzZ"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".JamiaI"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MadarsaForTeen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MaktabCumschool"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EmaktabReg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IscAffiliationForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EshopSection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CommunityServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocialEconomic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TableeghSection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SocialAwarness"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AzadariSection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CultureSection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EducationSection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KidsMaktab"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SupportTanzeem"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetSupport"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

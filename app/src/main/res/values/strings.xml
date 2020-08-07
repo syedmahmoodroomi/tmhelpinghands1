@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TM Helping Hands</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Tanzeemul Makatib</string>
+    <string name="slide_1_desc">On this Slide Bani e Tanzeem Image Should Be Placed With Other Ulemas</string>
+
+    <string name="slide_2_title">Tanzeemul Makatib</string>
+    <string name="slide_2_desc">On This Slide Mixed Images For All Sections Will Be Placed</string>
+    <string name="what_is_maktab">The greatest service of the organization was and is still today Imamia Maktabs. From Bengal to Kashmir, in 17 provinces, where there are momineen, 994 maktabs are running with 45948 students and 1722 teachers.</string>
+    <string name="madarsa_for_teen">Religious Education for Class VI to IX of schools. A syllabus has been Designed to continue the religious education upto high school after completion of maktab education.It Consists of belief ,Islamic Commandments ,history , morals , and Urdu. </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

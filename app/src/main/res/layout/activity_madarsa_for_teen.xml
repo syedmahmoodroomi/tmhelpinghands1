@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MadarsaForTeen"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tanzeem"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/wht_madarsa"
+                android:layout_gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Junior Level Religious Education"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نو نہالان کے لئے مدرسہ"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/madarsa_for_teen"
+                android:textColor="#000000"
+                android:justificationMode="inter_word"
+                android:padding="10sp"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/est_madarsa"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="To Establish/Affiliate a Maktab Kindly Download The Form From Download Section."
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"
+                android:padding="10dp"/>
+
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/how_run_madarsa"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="These are Rules and Regulations to Run a Maktab"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#000000"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="0dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/rulesurdu"
+                            android:background="@drawable/rules_urdu"/>
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="0dp"
+                    app:cardElevation="0dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/ruleshindi"
+                            android:background="@drawable/rules_hindi"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="0dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/rulesenglish"
+                            android:background="@drawable/rules_eng"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="0dp"
+                >
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="0dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="URDU"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="25dp"/>
+
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginLeft="0dp"
+                    app:cardElevation="0dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="HINDI"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="25dp"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginRight="0dp"
+                    app:cardElevation="0dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="ENGLISH"
+                            android:textColor="#000000"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="25dp"/>
+
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/sub_month_report"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/get_admission"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/get_results"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/get_results"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/updates_maktab"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/contacts"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Useful Contacts"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Section :"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Section Incharge :"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Accounts Section :"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aid and Relief Section :"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"/>
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:src="@drawable/downloads"
+                android:layout_margin="5dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ilhak_form"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/ilhakformmaktab"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/mahana_report"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/mahanareport"
+                android:layout_gravity="center_horizontal"/>
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:src="@drawable/maktabaddform"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/getadmissionMaktab"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
+
+
