@@ -12,6 +12,16 @@
             android:layout_height="30dp"
             android:layout_gravity="center_horizontal"
             android:src="@drawable/tanzeem"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="UPI ID"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/upi_id"
+        android:text="8318006630@ybl"
+        android:visibility="gone"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -222,7 +232,8 @@
                 android:layout_width="140dp"
                 android:layout_height="40dp"
                 android:layout_gravity="right"
-                android:src="@drawable/paygpay"/>
+                android:src="@drawable/paygpay"
+                android:id="@+id/send"/>
         </LinearLayout>
             <Button
                 android:id="@+id/donate_now"
