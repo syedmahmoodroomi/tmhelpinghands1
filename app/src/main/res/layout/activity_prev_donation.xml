@@ -7,18 +7,13 @@
     android:orientation="vertical"
     android:padding="15dp">
 
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_horizontal"
-            android:src="@drawable/tanzeem"/>
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="UPI ID"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:id="@+id/upi_id"
         android:text="8318006630@ybl"
         android:visibility="gone"/>
@@ -29,8 +24,8 @@
             android:textSize="15dp"
             android:textColor="#000000"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
             android:fontFamily="sans-serif-condensed-medium"/>
         <LinearLayout
             android:layout_width="match_parent"
@@ -44,7 +39,7 @@
                 android:textColor="#048A04"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="15dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
             <TextView
                 android:layout_width="150dp"
@@ -54,7 +49,7 @@
                 android:textColor="#092581"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
 
         </LinearLayout>
@@ -70,7 +65,7 @@
                 android:textColor="#048A04"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
             <TextView
                 android:layout_width="150dp"
@@ -80,7 +75,7 @@
                 android:textColor="#092581"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
 
         </LinearLayout>
@@ -106,7 +101,7 @@
                 android:textColor="#092581"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
 
         </LinearLayout>
@@ -122,7 +117,7 @@
                 android:textColor="#048A04"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
             <TextView
                 android:layout_width="150dp"
@@ -132,7 +127,7 @@
                 android:textColor="#092581"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
 
         </LinearLayout>
@@ -148,7 +143,7 @@
                 android:textColor="#048A04"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
             <TextView
                 android:layout_width="150dp"
@@ -158,7 +153,7 @@
                 android:textColor="#092581"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
 
         </LinearLayout>
@@ -174,7 +169,7 @@
                 android:textColor="#048A04"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
             <TextView
                 android:layout_width="150dp"
@@ -184,7 +179,7 @@
                 android:textColor="#092581"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
 
         </LinearLayout>
@@ -200,7 +195,7 @@
                 android:textColor="#048A04"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
             <TextView
                 android:layout_width="150dp"
@@ -210,7 +205,7 @@
                 android:textColor="#092581"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginBottom="5dp"
                 android:fontFamily="sans-serif-condensed-medium"/>
 
 
@@ -218,22 +213,34 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:padding="10dp"
-            >
+            android:orientation="vertical">
             <ImageView
                 android:id="@+id/paytmpay"
-                android:layout_width="140dp"
-                android:layout_height="40dp"
-                android:textAlignment="textEnd"
-                android:src="@drawable/paypaytm"
-                android:layout_gravity="left"/>
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/googlepay"
+                />
             <ImageView
-                android:layout_width="140dp"
-                android:layout_height="40dp"
-                android:layout_gravity="right"
-                android:src="@drawable/paygpay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:src="@drawable/upi"
+                android:layout_marginBottom="10dp"
                 android:id="@+id/send"/>
+            <ImageView
+                android:id="@+id/paytmpay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/card"
+                />
+            <ImageView
+                android:id="@+id/paytmpay"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/banktransfer"
+                />
         </LinearLayout>
             <Button
                 android:id="@+id/donate_now"
@@ -244,6 +251,7 @@
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
                 android:layout_gravity="center_horizontal"
-                android:background="@drawable/mybutton"/>
+                android:background="@drawable/mybutton"
+                android:visibility="gone"/>
 
 </LinearLayout>

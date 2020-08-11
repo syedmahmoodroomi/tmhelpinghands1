@@ -13,6 +13,10 @@ android {
 
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
     buildTypes {
         release {
@@ -37,12 +41,7 @@ dependencies {
     implementation 'com.google.zxing:core:3.3.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation "androidx.constraintlayout:constraintlayout:2.0.0-rc1"
-
-    // paytm dependency
-    implementation('com.paytm:pgplussdk:1.2.3') {
-        transitive = true;
-    }
-
+    implementation 'com.paytm.appinvokesdk:appinvokesdk:1.2'
 
 
 }
