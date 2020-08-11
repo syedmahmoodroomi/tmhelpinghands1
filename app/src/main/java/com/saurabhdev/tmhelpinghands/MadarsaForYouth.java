@@ -48,7 +48,7 @@ public class MadarsaForYouth extends AppCompatActivity {
 
     }
     private void setupViewPager(ViewPager viewPager){
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getFragmentManager());
+        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(get());
         viewPagerAdapter.addFragment(new AbuTalib(), "Madarsa For Boys");
         viewPagerAdapter.addFragment(new KhadeejatulKubra(), "Madarsa For Girls");
         viewPager.setAdapter(viewPagerAdapter);
